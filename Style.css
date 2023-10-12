@@ -1,0 +1,93 @@
+html{
+    background-color:rgb(255, 223, 228);
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color:pink;
+    border: 1px solid #403F44;
+}
+img{
+    width: 250px;
+    height: 230px;
+}
+.movieinfo{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    height: 30px;
+}
+.movieinfotwo{
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    height: 30px;
+}
+.movieabout{   
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+.movieabouttext{
+    height: 100px;
+    width: 560px;
+    text-align: left;
+}
+.trailer {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Remove the fixed height */
+}
+.trailer iframe {
+    max-width: 100%;
+}
+ul{
+    list-style:circle;
+}
+.barbieheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barbielinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-bottom: 40px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    border: 1px solid #403F44;
+    color:black;
+}
+li, a {
+    color:black!important;/* Change the link text color */
+    text-decoration: none; /* Remove underlines */
+}
+/* Styling for visited links */
+a:visited {
+    color: #551a8b; /* Change the color of visited links */
+}
+/* Styling for links when hovered over */
+a:hover {
+    color: pink !important;
+    text-decoration: underline; /* Add underline on hover */
+}
+/* Styling for active links (when clicked) */
+a:active {
+    color: #ff0000; /* Change the color of active links */
+}
