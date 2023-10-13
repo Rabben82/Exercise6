@@ -41,7 +41,6 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto; /* Remove the fixed height */
 }
 .trailer iframe {
     max-width: 100%;
@@ -75,19 +74,16 @@ footer{
     color:black;
 }
 li, a {
-    color:black!important;/* Change the link text color */
-    text-decoration: none; /* Remove underlines */
+    color:black!important;
+    text-decoration: none;
 }
-/* Styling for visited links */
 a:visited {
-    color: #551a8b; /* Change the color of visited links */
+    color: #551a8b; 
 }
-/* Styling for links when hovered over */
 a:hover {
     color: pink !important;
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline;
 }
-/* Styling for active links (when clicked) */
 a:active {
-    color: #ff0000; /* Change the color of active links */
+    color: #ff0000;
 }
